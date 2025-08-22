@@ -3,7 +3,7 @@ import Button from "./Button";
 import Room from './Room'
 import GalleryImages from "./GalleryImage";
 import RoomInspiration from "./RoomInspiration";
-import Product2 from "./Product2";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
 
         <div className="absolute inset-0 bg-black/30"></div>  
         
-        <div className="container mx-auto relative z-10 h-full flex items-center">
+        <div className="container mx-auto relative z-10 h-full flex items-center justify-center">
           <div className=" hero-background p-8 rounded-2xl max-w-lg ml-auto mr-10 my-25 space-y-12">
             <h5 className='text-lg font-medium text-gray-600'>New Arrival</h5>
             <h1 className="h1-color text-4xl md:text-5xl font-bold tracking-tight">Discover Our New Collection</h1> 
@@ -22,9 +22,9 @@ const Home = () => {
               our curated collection of sofas, beds, tables, and more—blending 
               timeless design with exceptional quality.
             </p>
-            <button className="bg-colors space-x-4 px-6 py-4 rounded-[5px] text-white text-lg font-bold transition-colors cursor-pointer">
+            <Link className="bg-colors space-x-4 px-6 py-4 rounded-[5px] text-white text-lg font-bold transition-colors ">
               Buy now
-            </button> 
+            </Link> 
           </div>
         </div>
       </section>
@@ -36,7 +36,6 @@ const Home = () => {
         <h1>Our Products</h1>
         </div>
         <Products/>
-        <Product2/>
           <div className='justify-center text-center p-5 '>
         <Button name='Show more'/>
         </div>
