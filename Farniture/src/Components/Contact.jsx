@@ -56,7 +56,7 @@ const Contact = () => {
               <input type="text" placeholder='This is an optional ' className='py-2 text-start w-full lg:w-100 xl:w-120 md:w-80  p-2 rounded border-stone-400 border text-stone-400 ' />
 
               <h1 className='font-bold text-[14px]'>Message</h1>
-               <textarea name="" id="" cols='3' rows='5 ' placeholder='I would like to ask' className='p-3 py-3  border border-stone-400 rounded '>
+               <textarea name="" id="" cols='3' rows='5 ' placeholder='I would like to ask' className='p-3 py-3  border border-stone-400 rounded resize-none'>
 
                </textarea>
 
